@@ -1,0 +1,23 @@
+/* Corps de la page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #002921; /* fond vert foncé style Undertale */
+    overflow: hidden;
+    font-family: monospace;
+}
+
+/* Canvas du jeu */
+canvas {
+    display: block;
+    margin: auto;
+    background-color: #002921;
+    border: 4px solid white; 
+    image-rendering: pixelated; /* pixel art net */
+}
+
+/* Boîte de combat optionnelle si tu veux voir la hitbox */
+.box {
+    border: 2px solid red;
+    position: absolute;
+}
